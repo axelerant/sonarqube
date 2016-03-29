@@ -12,7 +12,7 @@ if [ "${1:0:1}" != '-' ]; then
 	      -Dsonar.jdbc.password="$SONARQUBE_JDBC_PASSWORD" \
 	        -Dsonar.jdbc.url="$SONARQUBE_JDBC_URL" \
 		  -Dsonar.web.host="0.0.0.0" \
-		    -Dsonar.web.port="8080" \
+		    -Dsonar.web.port="8888" \
 		      -Dsonar.web.javaAdditionalOpts="-Djava.security.egd=file:/dev/./urandom" \
 		              "$@"
 
